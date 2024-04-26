@@ -395,7 +395,7 @@ class Twitch(object):
 
                     elif (
                         prior in [Priority.POINTS_ASCENDING,
-                                  Priority.POINTS_DESCENDING]
+                                  Priority.POINTS_DESCEDING]
                         and len(streamers_watching) < 2
                     ):
                         items = [
